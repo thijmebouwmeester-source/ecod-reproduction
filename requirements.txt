@@ -1,0 +1,6 @@
+# versions used for the reported run
+pyod==3.6.7
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+pandas==3.0.5

@@ -1,0 +1,15 @@
+arrhythmia   rows=   452 columns= 274 outliers=14.60%
+breastw      rows=   683 columns=   9 outliers=34.99%
+cardio       rows=  1831 columns=  21 outliers=9.61%
+ionosphere   rows=   351 columns=  33 outliers=35.90%
+lympho       rows=   148 columns=  18 outliers=4.05%
+mammography  rows= 11183 columns=   6 outliers=2.32%
+optdigits    rows=  5216 columns=  64 outliers=2.88%
+pima         rows=   768 columns=   8 outliers=34.90%
+satellite    rows=  6435 columns=  36 outliers=31.64%
+satimage-2   rows=  5803 columns=  36 outliers=1.22%
+shuttle      rows= 10000 columns=   9 outliers=7.61%
+speech       rows=  3686 columns= 400 outliers=1.65%
+wbc          rows=   378 columns=  30 outliers=5.56%
+wine         rows=   129 columns=  13 outliers=7.75%
+largest score difference between our ECOD and PyOD: 2.2737367544323206e-13

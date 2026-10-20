@@ -1,0 +1,815 @@
+{
+ "source": "Li et al., ECOD, arXiv:2201.00382v1 (January 2022); v3 prints the same values. roc/ap = Tables 4/5 (ECOD and the baselines, ODDS (.mat) rows). table2_roc_all30/table3_ap_all30 = all 30 rows of Tables 2/3 (ECOD-L, ECOD-R, ECOD-B, ECOD) in printed order, with the row labels as printed.",
+ "roc": {
+  "ABOD": {
+   "arrhythmia": 0.769,
+   "breastw": 0.396,
+   "cardio": 0.569,
+   "ionosphere": 0.925,
+   "lympho": 0.911,
+   "mammography": 0.549,
+   "optdigits": 0.467,
+   "pima": 0.679,
+   "satellite": 0.571,
+   "satimage-2": 0.819,
+   "shuttle": 0.659,
+   "speech": 0.627,
+   "wbc": 0.905,
+   "wine": 0.431
+  },
+  "CBLOF": {
+   "arrhythmia": 0.784,
+   "breastw": 0.965,
+   "cardio": 0.81,
+   "ionosphere": 0.897,
+   "lympho": 0.967,
+   "mammography": 0.821,
+   "optdigits": 0.769,
+   "pima": 0.658,
+   "satellite": 0.749,
+   "satimage-2": 0.999,
+   "shuttle": 0.608,
+   "speech": 0.452,
+   "wbc": 0.92,
+   "wine": 0.284
+  },
+  "HBOS": {
+   "arrhythmia": 0.822,
+   "breastw": 0.983,
+   "cardio": 0.835,
+   "ionosphere": 0.561,
+   "lympho": 0.996,
+   "mammography": 0.834,
+   "optdigits": 0.873,
+   "pima": 0.7,
+   "satellite": 0.758,
+   "satimage-2": 0.98,
+   "shuttle": 0.995,
+   "speech": 0.454,
+   "wbc": 0.952,
+   "wine": 0.9
+  },
+  "IForest": {
+   "arrhythmia": 0.802,
+   "breastw": 0.987,
+   "cardio": 0.923,
+   "ionosphere": 0.847,
+   "lympho": 0.993,
+   "mammography": 0.86,
+   "optdigits": 0.721,
+   "pima": 0.678,
+   "satellite": 0.702,
+   "satimage-2": 0.995,
+   "shuttle": 0.998,
+   "speech": 0.447,
+   "wbc": 0.931,
+   "wine": 0.816
+  },
+  "KNN": {
+   "arrhythmia": 0.786,
+   "breastw": 0.976,
+   "cardio": 0.724,
+   "ionosphere": 0.927,
+   "lympho": 0.975,
+   "mammography": 0.841,
+   "optdigits": 0.371,
+   "pima": 0.708,
+   "satellite": 0.684,
+   "satimage-2": 0.954,
+   "shuttle": 0.738,
+   "speech": 0.458,
+   "wbc": 0.937,
+   "wine": 0.518
+  },
+  "LODA": {
+   "arrhythmia": 0.75,
+   "breastw": 0.987,
+   "cardio": 0.856,
+   "ionosphere": 0.798,
+   "lympho": 0.73,
+   "mammography": 0.881,
+   "optdigits": 0.398,
+   "pima": 0.592,
+   "satellite": 0.597,
+   "satimage-2": 0.987,
+   "shuttle": 0.589,
+   "speech": 0.455,
+   "wbc": 0.913,
+   "wine": 0.787
+  },
+  "LOF": {
+   "arrhythmia": 0.779,
+   "breastw": 0.47,
+   "cardio": 0.574,
+   "ionosphere": 0.875,
+   "lympho": 0.977,
+   "mammography": 0.729,
+   "optdigits": 0.45,
+   "pima": 0.627,
+   "satellite": 0.557,
+   "satimage-2": 0.458,
+   "shuttle": 0.524,
+   "speech": 0.471,
+   "wbc": 0.935,
+   "wine": 0.905
+  },
+  "LSCP": {
+   "arrhythmia": 0.793,
+   "breastw": 0.933,
+   "cardio": 0.88,
+   "ionosphere": 0.857,
+   "lympho": 0.984,
+   "mammography": 0.855,
+   "optdigits": 0.658,
+   "pima": 0.664,
+   "satellite": 0.665,
+   "satimage-2": 0.981,
+   "shuttle": 0.939,
+   "speech": 0.465,
+   "wbc": 0.931,
+   "wine": 0.862
+  },
+  "OCSVM": {
+   "arrhythmia": 0.781,
+   "breastw": 0.961,
+   "cardio": 0.935,
+   "ionosphere": 0.842,
+   "lympho": 0.976,
+   "mammography": 0.872,
+   "optdigits": 0.5,
+   "pima": 0.622,
+   "satellite": 0.662,
+   "satimage-2": 0.998,
+   "shuttle": 0.995,
+   "speech": 0.447,
+   "wbc": 0.932,
+   "wine": 0.636
+  },
+  "PCA": {
+   "arrhythmia": 0.782,
+   "breastw": 0.959,
+   "cardio": 0.95,
+   "ionosphere": 0.796,
+   "lympho": 0.985,
+   "mammography": 0.882,
+   "optdigits": 0.509,
+   "pima": 0.648,
+   "satellite": 0.599,
+   "satimage-2": 0.982,
+   "shuttle": 0.994,
+   "speech": 0.45,
+   "wbc": 0.916,
+   "wine": 0.801
+  },
+  "SUOD": {
+   "arrhythmia": 0.811,
+   "breastw": 0.929,
+   "cardio": 0.9,
+   "ionosphere": 0.862,
+   "lympho": 0.979,
+   "mammography": 0.851,
+   "optdigits": 0.68,
+   "pima": 0.666,
+   "satellite": 0.722,
+   "satimage-2": 0.993,
+   "shuttle": 0.996,
+   "speech": 0.469,
+   "wbc": 0.935,
+   "wine": 0.868
+  },
+  "ECOD": {
+   "arrhythmia": 0.802,
+   "breastw": 0.994,
+   "cardio": 0.897,
+   "ionosphere": 0.831,
+   "lympho": 0.994,
+   "mammography": 0.894,
+   "optdigits": 0.733,
+   "pima": 0.664,
+   "satellite": 0.661,
+   "satimage-2": 0.985,
+   "shuttle": 0.998,
+   "speech": 0.485,
+   "wbc": 0.975,
+   "wine": 0.949
+  }
+ },
+ "ap": {
+  "ABOD": {
+   "arrhythmia": 0.359,
+   "breastw": 0.295,
+   "cardio": 0.194,
+   "ionosphere": 0.914,
+   "lympho": 0.517,
+   "mammography": 0.023,
+   "optdigits": 0.028,
+   "pima": 0.511,
+   "satellite": 0.397,
+   "satimage-2": 0.187,
+   "shuttle": 0.171,
+   "speech": 0.04,
+   "wbc": 0.355,
+   "wine": 0.084
+  },
+  "CBLOF": {
+   "arrhythmia": 0.399,
+   "breastw": 0.914,
+   "cardio": 0.414,
+   "ionosphere": 0.871,
+   "lympho": 0.808,
+   "mammography": 0.137,
+   "optdigits": 0.062,
+   "pima": 0.477,
+   "satellite": 0.69,
+   "satimage-2": 0.978,
+   "shuttle": 0.195,
+   "speech": 0.022,
+   "wbc": 0.5,
+   "wine": 0.06
+  },
+  "HBOS": {
+   "arrhythmia": 0.493,
+   "breastw": 0.953,
+   "cardio": 0.46,
+   "ionosphere": 0.366,
+   "lympho": 0.925,
+   "mammography": 0.122,
+   "optdigits": 0.196,
+   "pima": 0.569,
+   "satellite": 0.687,
+   "satimage-2": 0.758,
+   "shuttle": 0.98,
+   "speech": 0.027,
+   "wbc": 0.663,
+   "wine": 0.405
+  },
+  "IForest": {
+   "arrhythmia": 0.506,
+   "breastw": 0.972,
+   "cardio": 0.576,
+   "ionosphere": 0.789,
+   "lympho": 0.952,
+   "mammography": 0.233,
+   "optdigits": 0.055,
+   "pima": 0.503,
+   "satellite": 0.654,
+   "satimage-2": 0.929,
+   "shuttle": 0.986,
+   "speech": 0.018,
+   "wbc": 0.59,
+   "wine": 0.279
+  },
+  "KNN": {
+   "arrhythmia": 0.397,
+   "breastw": 0.927,
+   "cardio": 0.345,
+   "ionosphere": 0.924,
+   "lympho": 0.82,
+   "mammography": 0.17,
+   "optdigits": 0.022,
+   "pima": 0.515,
+   "satellite": 0.543,
+   "satimage-2": 0.419,
+   "shuttle": 0.204,
+   "speech": 0.022,
+   "wbc": 0.529,
+   "wine": 0.095
+  },
+  "LODA": {
+   "arrhythmia": 0.436,
+   "breastw": 0.978,
+   "cardio": 0.424,
+   "ionosphere": 0.716,
+   "lympho": 0.417,
+   "mammography": 0.281,
+   "optdigits": 0.024,
+   "pima": 0.408,
+   "satellite": 0.581,
+   "satimage-2": 0.87,
+   "shuttle": 0.379,
+   "speech": 0.017,
+   "wbc": 0.564,
+   "wine": 0.278
+  },
+  "LOF": {
+   "arrhythmia": 0.374,
+   "breastw": 0.322,
+   "cardio": 0.163,
+   "ionosphere": 0.821,
+   "lympho": 0.825,
+   "mammography": 0.118,
+   "optdigits": 0.029,
+   "pima": 0.43,
+   "satellite": 0.39,
+   "satimage-2": 0.027,
+   "shuttle": 0.142,
+   "speech": 0.024,
+   "wbc": 0.558,
+   "wine": 0.361
+  },
+  "LSCP": {
+   "arrhythmia": 0.411,
+   "breastw": 0.826,
+   "cardio": 0.396,
+   "ionosphere": 0.818,
+   "lympho": 0.861,
+   "mammography": 0.169,
+   "optdigits": 0.043,
+   "pima": 0.47,
+   "satellite": 0.51,
+   "satimage-2": 0.333,
+   "shuttle": 0.715,
+   "speech": 0.027,
+   "wbc": 0.554,
+   "wine": 0.299
+  },
+  "OCSVM": {
+   "arrhythmia": 0.405,
+   "breastw": 0.934,
+   "cardio": 0.532,
+   "ionosphere": 0.823,
+   "lympho": 0.814,
+   "mammography": 0.188,
+   "optdigits": 0.028,
+   "pima": 0.461,
+   "satellite": 0.653,
+   "satimage-2": 0.975,
+   "shuttle": 0.902,
+   "speech": 0.021,
+   "wbc": 0.514,
+   "wine": 0.141
+  },
+  "PCA": {
+   "arrhythmia": 0.402,
+   "breastw": 0.96,
+   "cardio": 0.611,
+   "ionosphere": 0.736,
+   "lympho": 0.852,
+   "mammography": 0.199,
+   "optdigits": 0.028,
+   "pima": 0.478,
+   "satellite": 0.603,
+   "satimage-2": 0.874,
+   "shuttle": 0.926,
+   "speech": 0.022,
+   "wbc": 0.534,
+   "wine": 0.254
+  },
+  "SUOD": {
+   "arrhythmia": 0.495,
+   "breastw": 0.791,
+   "cardio": 0.462,
+   "ionosphere": 0.824,
+   "lympho": 0.799,
+   "mammography": 0.164,
+   "optdigits": 0.046,
+   "pima": 0.473,
+   "satellite": 0.608,
+   "satimage-2": 0.623,
+   "shuttle": 0.913,
+   "speech": 0.029,
+   "wbc": 0.602,
+   "wine": 0.364
+  },
+  "ECOD": {
+   "arrhythmia": 0.473,
+   "breastw": 0.988,
+   "cardio": 0.579,
+   "ionosphere": 0.719,
+   "lympho": 0.894,
+   "mammography": 0.429,
+   "optdigits": 0.053,
+   "pima": 0.541,
+   "satellite": 0.585,
+   "satimage-2": 0.86,
+   "shuttle": 0.981,
+   "speech": 0.02,
+   "wbc": 0.783,
+   "wine": 0.608
+  }
+ },
+ "table2_roc_all30": [
+  {
+   "row": "Arrhythmia (mat)",
+   "ECOD-L": 0.716,
+   "ECOD-R": 0.659,
+   "ECOD-B": 0.76,
+   "ECOD": 0.802
+  },
+  {
+   "row": "Breastw (mat)",
+   "ECOD-L": 0.665,
+   "ECOD-R": 0.641,
+   "ECOD-B": 0.774,
+   "ECOD": 0.993
+  },
+  {
+   "row": "Cardio (mat)",
+   "ECOD-L": 0.286,
+   "ECOD-R": 0.725,
+   "ECOD-B": 0.589,
+   "ECOD": 0.897
+  },
+  {
+   "row": "Ionosphere (mat)",
+   "ECOD-L": 0.765,
+   "ECOD-R": 0.523,
+   "ECOD-B": 0.81,
+   "ECOD": 0.83
+  },
+  {
+   "row": "Lympho (mat)",
+   "ECOD-L": 0.406,
+   "ECOD-R": 0.677,
+   "ECOD-B": 0.677,
+   "ECOD": 0.993
+  },
+  {
+   "row": "Mammography (mat)",
+   "ECOD-L": 0.718,
+   "ECOD-R": 0.384,
+   "ECOD-B": 0.706,
+   "ECOD": 0.894
+  },
+  {
+   "row": "Optdigits (mat)",
+   "ECOD-L": 0.993,
+   "ECOD-R": 0.997,
+   "ECOD-B": 0.997,
+   "ECOD": 0.732
+  },
+  {
+   "row": "Pima (mat)",
+   "ECOD-L": 0.55,
+   "ECOD-R": 0.99,
+   "ECOD-B": 1.0,
+   "ECOD": 0.663
+  },
+  {
+   "row": "Satellite (mat)",
+   "ECOD-L": 0.279,
+   "ECOD-R": 0.736,
+   "ECOD-B": 0.604,
+   "ECOD": 0.661
+  },
+  {
+   "row": "Satimage-2 (mat)",
+   "ECOD-L": 0.49,
+   "ECOD-R": 0.819,
+   "ECOD-B": 0.792,
+   "ECOD": 0.985
+  },
+  {
+   "row": "Shuttle (mat)",
+   "ECOD-L": 0.151,
+   "ECOD-R": 0.707,
+   "ECOD-B": 0.664,
+   "ECOD": 0.99
+  },
+  {
+   "row": "Speech (mat)",
+   "ECOD-L": 0.688,
+   "ECOD-R": 0.746,
+   "ECOD-B": 0.873,
+   "ECOD": 0.484
+  },
+  {
+   "row": "WBC (mat)",
+   "ECOD-L": 0.578,
+   "ECOD-R": 0.532,
+   "ECOD-B": 0.588,
+   "ECOD": 0.974
+  },
+  {
+   "row": "Wine (mat)",
+   "ECOD-L": 0.025,
+   "ECOD-R": 0.99,
+   "ECOD-B": 0.988,
+   "ECOD": 0.949
+  },
+  {
+   "row": "Arrhythmia (arff)",
+   "ECOD-L": 0.012,
+   "ECOD-R": 0.984,
+   "ECOD-B": 0.924,
+   "ECOD": 0.761
+  },
+  {
+   "row": "Cardiotocography (arff)",
+   "ECOD-L": 0.432,
+   "ECOD-R": 0.576,
+   "ECOD-B": 0.493,
+   "ECOD": 0.637
+  },
+  {
+   "row": "HeartDisease (arff)",
+   "ECOD-L": 0.805,
+   "ECOD-R": 0.687,
+   "ECOD-B": 0.821,
+   "ECOD": 0.672
+  },
+  {
+   "row": "Hepatitis (arff)",
+   "ECOD-L": 0.008,
+   "ECOD-R": 0.993,
+   "ECOD-B": 0.991,
+   "ECOD": 0.843
+  },
+  {
+   "row": "InternetAds (arff)",
+   "ECOD-L": 0.887,
+   "ECOD-R": 0.687,
+   "ECOD-B": 0.936,
+   "ECOD": 0.676
+  },
+  {
+   "row": "Ionosphere (arff)",
+   "ECOD-L": 0.97,
+   "ECOD-R": 0.316,
+   "ECOD-B": 0.933,
+   "ECOD": 0.821
+  },
+  {
+   "row": "KDDCup99 (arff)",
+   "ECOD-L": 0.73,
+   "ECOD-R": 0.383,
+   "ECOD-B": 0.715,
+   "ECOD": 0.997
+  },
+  {
+   "row": "Lymphography (arff)",
+   "ECOD-L": 0.884,
+   "ECOD-R": 0.732,
+   "ECOD-B": 0.995,
+   "ECOD": 0.998
+  },
+  {
+   "row": "Pima (arff)",
+   "ECOD-L": 0.241,
+   "ECOD-R": 0.892,
+   "ECOD-B": 0.898,
+   "ECOD": 0.646
+  },
+  {
+   "row": "Shuttle (arff)",
+   "ECOD-L": 0.46,
+   "ECOD-R": 0.666,
+   "ECOD-B": 0.693,
+   "ECOD": 0.879
+  },
+  {
+   "row": "SpamBase (arff)",
+   "ECOD-L": 0.225,
+   "ECOD-R": 0.755,
+   "ECOD-B": 0.584,
+   "ECOD": 0.7
+  },
+  {
+   "row": "Stamps (arff)",
+   "ECOD-L": 0.749,
+   "ECOD-R": 0.414,
+   "ECOD-B": 0.581,
+   "ECOD": 0.938
+  },
+  {
+   "row": "Waveform (arff)",
+   "ECOD-L": 0.926,
+   "ECOD-R": 0.813,
+   "ECOD-B": 0.973,
+   "ECOD": 0.786
+  },
+  {
+   "row": "WBC (arff)",
+   "ECOD-L": 0.461,
+   "ECOD-R": 0.458,
+   "ECOD-B": 0.45,
+   "ECOD": 0.99
+  },
+  {
+   "row": "WDBC (arff)",
+   "ECOD-L": 0.031,
+   "ECOD-R": 0.975,
+   "ECOD-B": 0.884,
+   "ECOD": 0.982
+  },
+  {
+   "row": "WPBC (arff)",
+   "ECOD-L": 0.04,
+   "ECOD-R": 0.965,
+   "ECOD-B": 0.748,
+   "ECOD": 0.546
+  }
+ ],
+ "table3_ap_all30": [
+  {
+   "row": "Arrhythmia (mat)",
+   "ECOD-L": 0.503,
+   "ECOD-R": 0.318,
+   "ECOD-B": 0.497,
+   "ECOD": 0.472
+  },
+  {
+   "row": "Breastw (mat)",
+   "ECOD-L": 0.209,
+   "ECOD-R": 0.987,
+   "ECOD-B": 0.984,
+   "ECOD": 0.987
+  },
+  {
+   "row": "Cardio (mat)",
+   "ECOD-L": 0.45,
+   "ECOD-R": 0.163,
+   "ECOD-B": 0.587,
+   "ECOD": 0.579
+  },
+  {
+   "row": "Ionosphere (mat)",
+   "ECOD-L": 0.363,
+   "ECOD-R": 0.006,
+   "ECOD-B": 0.151,
+   "ECOD": 0.719
+  },
+  {
+   "row": "Lympho (mat)",
+   "ECOD-L": 0.592,
+   "ECOD-R": 0.334,
+   "ECOD-B": 0.622,
+   "ECOD": 0.893
+  },
+  {
+   "row": "Mammography (mat)",
+   "ECOD-L": 0.528,
+   "ECOD-R": 0.431,
+   "ECOD-B": 0.912,
+   "ECOD": 0.429
+  },
+  {
+   "row": "Optdigits (mat)",
+   "ECOD-L": 0.013,
+   "ECOD-R": 0.392,
+   "ECOD-B": 0.426,
+   "ECOD": 0.053
+  },
+  {
+   "row": "Pima (mat)",
+   "ECOD-L": 0.026,
+   "ECOD-R": 0.049,
+   "ECOD-B": 0.045,
+   "ECOD": 0.54
+  },
+  {
+   "row": "Satellite (mat)",
+   "ECOD-L": 0.229,
+   "ECOD-R": 0.611,
+   "ECOD-B": 0.46,
+   "ECOD": 0.585
+  },
+  {
+   "row": "Satimage-2 (mat)",
+   "ECOD-L": 0.55,
+   "ECOD-R": 0.259,
+   "ECOD-B": 0.523,
+   "ECOD": 0.859
+  },
+  {
+   "row": "Shuttle (mat)",
+   "ECOD-L": 0.113,
+   "ECOD-R": 0.044,
+   "ECOD-B": 0.67,
+   "ECOD": 0.98
+  },
+  {
+   "row": "Speech (mat)",
+   "ECOD-L": 0.015,
+   "ECOD-R": 0.022,
+   "ECOD-B": 0.022,
+   "ECOD": 0.019
+  },
+  {
+   "row": "WBC (mat)",
+   "ECOD-L": 0.035,
+   "ECOD-R": 0.772,
+   "ECOD-B": 0.464,
+   "ECOD": 0.782
+  },
+  {
+   "row": "Wine (mat)",
+   "ECOD-L": 0.044,
+   "ECOD-R": 0.666,
+   "ECOD-B": 0.218,
+   "ECOD": 0.608
+  },
+  {
+   "row": "Arrhythmia (arff)",
+   "ECOD-L": 0.71,
+   "ECOD-R": 0.636,
+   "ECOD-B": 0.751,
+   "ECOD": 0.751
+  },
+  {
+   "row": "Cardiotocography (arff)",
+   "ECOD-L": 0.37,
+   "ECOD-R": 0.294,
+   "ECOD-B": 0.493,
+   "ECOD": 0.377
+  },
+  {
+   "row": "HeartDisease (arff)",
+   "ECOD-L": 0.319,
+   "ECOD-R": 0.663,
+   "ECOD-B": 0.508,
+   "ECOD": 0.64
+  },
+  {
+   "row": "Hepatitis (arff)",
+   "ECOD-L": 0.444,
+   "ECOD-R": 0.221,
+   "ECOD-B": 0.434,
+   "ECOD": 0.584
+  },
+  {
+   "row": "InternetAds (arff)",
+   "ECOD-L": 0.156,
+   "ECOD-R": 0.511,
+   "ECOD-B": 0.512,
+   "ECOD": 0.51
+  },
+  {
+   "row": "Ionosphere (arff)",
+   "ECOD-L": 0.572,
+   "ECOD-R": 0.334,
+   "ECOD-B": 0.607,
+   "ECOD": 0.53
+  },
+  {
+   "row": "KDDCup99 (arff)",
+   "ECOD-L": 0.166,
+   "ECOD-R": 0.219,
+   "ECOD-B": 0.278,
+   "ECOD": 0.566
+  },
+  {
+   "row": "Lymphography (arff)",
+   "ECOD-L": 0.12,
+   "ECOD-R": 0.986,
+   "ECOD-B": 1.0,
+   "ECOD": 0.463
+  },
+  {
+   "row": "Pima (arff)",
+   "ECOD-L": 0.244,
+   "ECOD-R": 0.59,
+   "ECOD-B": 0.477,
+   "ECOD": 0.703
+  },
+  {
+   "row": "Shuttle (arff)",
+   "ECOD-L": 0.014,
+   "ECOD-R": 0.068,
+   "ECOD-B": 0.073,
+   "ECOD": 0.238
+  },
+  {
+   "row": "SpamBase (arff)",
+   "ECOD-L": 0.254,
+   "ECOD-R": 0.568,
+   "ECOD-B": 0.527,
+   "ECOD": 0.981
+  },
+  {
+   "row": "Stamps (arff)",
+   "ECOD-L": 0.199,
+   "ECOD-R": 0.22,
+   "ECOD-B": 0.352,
+   "ECOD": 0.085
+  },
+  {
+   "row": "Waveform (arff)",
+   "ECOD-L": 0.049,
+   "ECOD-R": 0.031,
+   "ECOD-B": 0.042,
+   "ECOD": 0.078
+  },
+  {
+   "row": "WBC (arff)",
+   "ECOD-L": 0.028,
+   "ECOD-R": 0.838,
+   "ECOD-B": 0.82,
+   "ECOD": 0.838
+  },
+  {
+   "row": "WDBC (arff)",
+   "ECOD-L": 0.015,
+   "ECOD-R": 0.842,
+   "ECOD-B": 0.622,
+   "ECOD": 0.84
+  },
+  {
+   "row": "WPBC (arff)",
+   "ECOD-L": 0.199,
+   "ECOD-R": 0.266,
+   "ECOD-B": 0.211,
+   "ECOD": 0.243
+  }
+ ]
+}
